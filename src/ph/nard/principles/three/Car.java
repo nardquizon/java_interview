@@ -16,13 +16,15 @@ public class Car implements Vehicle {
 
     @Override
     public void start() {
+        // some implementation
     }
 
     @Override
     public void stop() {
+        // some implementation
     }
-
     @Override
     public void fly() {
+        throw new AssertionError("Cars cannot fly");
     }
 }
